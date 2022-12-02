@@ -119,34 +119,3 @@ def main():
 if __name__ == "__main__":
     main()
     exit()
-
-
-#########################################################################################
-#########################################################################################
-#########################################################################################
-#########################################################################################
-#########################################################################################
-
-# Bugs:
-
-# To-Do:
-# - figure out packaging
-# - test packaging
-
-
-# Done:
-# - GUI
-# - Preview object
-# - save data functions
-# - Update form functionality
-# - add preview
-# - delete preview
-# - save preview
-# - delete confirmation popup
-# - save preview popup
-# - csv import functionality
-# - finalize exception handeling
-# - csv export functionality
-# - import/export instruction popup
-# - backup functionality
-# - test, bug fix, and make error messages
