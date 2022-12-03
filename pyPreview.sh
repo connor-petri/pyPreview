@@ -1,5 +1,5 @@
 #! /bin/bash
 
-cd ~/pyPreview
+cd ~/pyPreview-main
 
 python main.py
