@@ -46,6 +46,7 @@ def add_new_preview(window: sg.Window, save_dict: dict):
         
         # Figures out if there are empty save and how many there are.
         new_num = 0
+        match1, match2 = None, None
         for value in save_dict.values():
             match1 = re.match("^New Parent - New Child", value.title)
             match2 = re.match("^New Parent [0-9] - New Child ([0-9])$", value.title)
