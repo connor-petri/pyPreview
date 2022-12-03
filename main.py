@@ -21,7 +21,7 @@ def import_export_window(save_dict: dict):
         while True:
 
             event, values = window.read()
-            print("\n", event, values)
+            # print("\n", event, values)
 
             if event in (sg.WIN_CLOSED, "Exit"):
                 break
