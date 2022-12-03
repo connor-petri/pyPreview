@@ -4,7 +4,7 @@ from os import system
 if __name__ == "__main__":
     system('/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"')
     system("echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/testuser/.zprofile")
-    system("echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/testuser/.zprofile")
+    system("echo 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' >> /Users/testuser/.zprofile")
     system('eval "$(/opt/homebrew/bin/brew shellenv)"')
 
     system("brew install pyenv")
